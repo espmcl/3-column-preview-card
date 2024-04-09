@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    padding-top: 100px;
+
+
+
+
+
+}
+
+
+p{    font-family:"Lexend Deca";
+    color: white; 
+    font-weight: 400;
+    font-size: 15px;
+}
+
+h2{
+    font-family:"Big Shoulders Display";   
+    color: white; font-weight: 800;
+    }
+
+
+.container{
+    border: 5px solid white;
+    border-radius: 20px;
+
+    width: 50%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+
+
+}
+
+.inner{
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner img{
+    width: 100px;
+    height: 50px;
+}
+
+#SEDAN{
+    background-color:hsl(31, 77%, 52%) ;    
+}
+
+#SUV{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#LUXURY{
+    background-color: hsl(179, 100%, 13%);
+}
+
+button{
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 40px;
+    width: 110px;
+    padding-left: 10px;
+    font-family:"Lexend Deca";
+    background-color: white;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: transparent;
+    
+}
+
+
+
+
+#one{
+    color: hsl(31, 77%, 52%) ;
+}
+
+#two{
+    color: hsl(184, 100%, 22%)
+}
+
+#three{
+    color: hsl(179, 100%, 13%)
+
+}
+
+
+#three:hover{
+    color: white !important;
+
+}
+
+#two:hover{
+    color: white !important;
+
+}
+
+#one:hover{
+    color: white !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
